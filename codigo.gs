@@ -23,7 +23,7 @@
  */
 function verificarCriticas() {
   // Recebemos a planilha configurada pelo seu ID do Google (os números aleatórios que estão no endereço no navegador)
-  const planilha = SpreadsheetApp.openById("1qhS56Z5pYDN3JRjhrfs4m3D6S0EAU2gnr4ef8HPwLM8");
+  const planilha = SpreadsheetApp.openById(<ID DA PLANILHA>);
   // Definimos a planilha como ativa (necessário por algum motivo esquisito)
   SpreadsheetApp.setActiveSpreadsheet(planilha);
   
