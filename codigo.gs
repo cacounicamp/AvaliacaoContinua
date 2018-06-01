@@ -205,7 +205,7 @@ function verificarCriticas() {
   }
 
   // Verificamos se é necessário enviar e-mail lembrete  
-  if (mensagensNaoVisualizadas > 1 && dias_ultimo_lembrete.getValue() >= 4) {
+  if (mensagensNaoVisualizadas > 0 && dias_ultimo_lembrete.getValue() >= 4) {
     // Fazemos a lista de interessad*s
     var enderecos_cco = "";
     
